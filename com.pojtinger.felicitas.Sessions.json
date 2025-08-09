@@ -38,8 +38,8 @@
         {
           "type": "git",
           "url": "https://github.com/pojntfx/sessions.git",
-          "tag": "v0.1.0",
-          "commit": "b6560630840819bc992e5d01379a6545671f6e34"
+          "tag": "v0.1.1",
+          "commit": "dbfffe5cef12b088a86beabae9aa3b650ba41f80"
         },
         "go.mod.json"
       ]
