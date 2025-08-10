@@ -32,14 +32,15 @@
         ". /usr/lib/sdk/golang/enable.sh && export GOBIN=\"/app/bin\" && go generate ./... && go install -v -mod=vendor .",
         "desktop-file-install --dir=/app/share/applications assets/meta/$FLATPAK_ID.desktop",
         "install -D -m 0644 assets/resources/metainfo.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml",
-        "install -D -m 0644 assets/meta/icon.svg /app/share/icons/hicolor/scalable/apps/$FLATPAK_ID.svg"
+        "install -D -m 0644 assets/meta/icon.svg /app/share/icons/hicolor/scalable/apps/$FLATPAK_ID.svg",
+        "mkdir -p /app/share/locale && cp -r config/locales/* /app/share/locale/"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/pojntfx/sessions.git",
-          "tag": "v0.1.1",
-          "commit": "dbfffe5cef12b088a86beabae9aa3b650ba41f80"
+          "tag": "v0.1.2",
+          "commit": "120cd1b57cd3b2df083448e362172e6e8bd261e8"
         },
         "go.mod.json"
       ]
