@@ -20,7 +20,12 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-          "tag": "v0.18.0"
+          "tag": "v0.18.0",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^v([\\d.]+)$",
+            "version-scheme": "semantic"
+          }
         }
       ]
     },
@@ -40,7 +45,12 @@
           "type": "git",
           "url": "https://github.com/pojntfx/sessions.git",
           "tag": "v0.1.2",
-          "commit": "120cd1b57cd3b2df083448e362172e6e8bd261e8"
+          "commit": "120cd1b57cd3b2df083448e362172e6e8bd261e8",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^v([\\d.]+)$",
+            "version-scheme": "semantic"
+          }
         },
         "go.mod.json"
       ]
