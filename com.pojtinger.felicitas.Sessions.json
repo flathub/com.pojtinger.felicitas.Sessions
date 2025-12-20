@@ -28,8 +28,8 @@
         {
           "type": "git",
           "url": "https://github.com/pojntfx/sessions.git",
-          "tag": "v0.1.7",
-          "commit": "999be2a67bf412d07b4ff5c686b9858c6de22a21",
+          "tag": "v0.1.8",
+          "commit": "d0f984b441ea23b71dc89d6d2bf5020f6e364e8c",
           "x-checker-data": {
             "type": "git",
             "tag-pattern": "^v([\\d.]+)$",
