@@ -39,7 +39,6 @@
             "version-scheme": "semantic"
           }
         },
-        ,
         "go.mod.json"
       ]
     }
