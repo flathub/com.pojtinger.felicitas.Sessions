@@ -31,8 +31,8 @@
         {
           "type": "git",
           "url": "https://github.com/pojntfx/sessions.git",
-          "tag": "v0.1.19",
-          "commit": "c23636fe2c885cf48e020bab19454444ac6a47f7",
+          "tag": "v0.1.20",
+          "commit": "cca3f1508a5f57a2cfa48096547c5561bebb5117",
           "x-checker-data": {
             "type": "git",
             "tag-pattern": "^v([\\d.]+)$",
